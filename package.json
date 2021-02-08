@@ -1,0 +1,54 @@
+{
+  "name": "footstep-lookup",
+  "version": "1.0.0",
+  "description": "Command line tool for tracking the activity of the user",
+  "main": "app.js",
+  "dependencies": {
+    "ansi-styles": "^4.3.0",
+    "active-win": "^6.1.0",
+    "cfonts": "^2.9.1",
+    "chalk": "^4.1.0",
+    "color-convert": "^2.0.1",
+    "color-name": "^1.1.4",
+    "define-property": "^1.0.0",
+    "express": "^4.17.1",
+    "has-flag": "^4.0.0",
+    "hbs": "^4.1.1",
+    "is-accessor-descriptor": "^1.0.0",
+    "fs-extra": "^9.0.0",
+    "is-data-descriptor": "^1.0.0",
+    "is-number": "^3.0.0",
+    "is-descriptor": "^1.0.2",
+    "kind-of": "^6.0.3",
+    "lodash": "^4.17.15",
+    "is-buffer": "^1.1.6",
+    "supports-color": "^7.2.0",
+    "window-size": "^1.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pranjals149/Footstep-Lookup.git"
+  },
+  "keywords": [
+    "footstep",
+    "lookup",
+    "activity",
+    "tracker",
+    "nodejs",
+    "javascript",
+    "cli"
+  ],
+  "author": "Pranjal Srivastava <pranjals149@gmail.com> (https://github.com/pranjals149)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pranjals149/Footstep-Lookup/issues"
+  },
+  "homepage": "https://github.com/pranjals149/Footstep-Lookup#readme",
+  "bin": {
+    "flookup": "app.js"
+  }
+}
